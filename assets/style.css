@@ -5,17 +5,23 @@
 }
 
 body {
-    background-color:azure;
+    background-color:rgb(240, 244, 246);
+    color: rgb(88, 26, 26);
 }
 
 header {
-    border-bottom: 10px solid green;
-    background-color: lightblue;
-    padding: 20px;
+    border-bottom: 10px solid  rgb(241, 199, 187);
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
 }
 
-nav {
-
+header, footer {
+    background-color: rgba(36, 77, 36, 0.92);
+    padding: 20px;
+    font-size: 20px;
+    color: white;
 }
 
 ul {
@@ -24,22 +30,76 @@ ul {
 
 li {
     display: inline;
-    margin: 10px;
-    right: 0px;
+    margin-right: 50px;
+    right: 10px;
+}
+
+h1 {
+    font-weight: 700;
 }
 
 img {
-    border: 20px double black;
+    border: 20px double rgb(88, 26, 26);
+    padding: 10px;
+    margin: 20px;
+    background-color:  rgb(241, 199, 187);
 }
 
 main {
+    margin-top: 90px;
+    text-align: center;
+}
+
+figcaption {
+    margin-bottom: 40px;
+}
+
+section {
+    background-color: rgb(241, 199, 187);
+    padding: 50px;
     text-align: center;
 }
 
 .contact {
-    background-color: blanchedalmond;
+    position: relative;
+    max-height: 200px;
+    text-align: center;
+}
+
+form {
+    border: 2px solid rgb(223, 161, 161);
+    border-radius: 15px;
+    width: 18%;
+    background-color: rgb(241, 199, 187);
+    padding: 20px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.form-inline {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.form-inline label {
+    margin: 5px 10px 5px 0;
+    width: 100px;
+}
+
+/* Need to color the button */
+#button {
+    width: 50px;
+    margin: 0 auto;
 }
 
 footer {
-    border: 5px solid green;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(36, 77, 36, 0.92);
+}
+
+p {
+    text-align: center;
 }
