@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    border: 10px solid red;
+    background-color: lightblue;
+}
+main {
+    border: 10px solid black;
+
+}
+footer {
+    border: 5px solid green;
+}
