@@ -82,14 +82,24 @@ form {
     align-items: center;
 }
 
-.form-inline label {
+label {
     margin: 5px 10px 5px 0;
     width: 100px;
 }
 
-/* Need to color the button */
+input {
+    width: 100%;
+}
+
+button {
+    background-color: rgb(88, 26, 26);
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+
 #button {
-    width: 50px;
+    width: 90px;
     margin: 0 auto;
 }
 
