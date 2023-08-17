@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color:rgb(240, 244, 246);
+    background-color:rgb(228, 230, 231);
     color: rgb(88, 26, 26);
 }
 
@@ -34,6 +34,14 @@ li {
     right: 10px;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
 h1 {
     font-weight: 700;
 }
@@ -57,6 +65,7 @@ figcaption {
 section {
     background-color: rgb(241, 199, 187);
     padding: 50px;
+    width: auto;
     text-align: center;
 }
 
@@ -64,12 +73,14 @@ section {
     position: relative;
     max-height: 200px;
     text-align: center;
+    border-top: 5px solid rgb(234, 168, 133);
 }
 
 form {
-    border: 2px solid rgb(223, 161, 161);
+    border: 5px solid rgb(234, 168, 133);
     border-radius: 15px;
-    width: 18%;
+    width: auto;
+    max-width: 500px;
     background-color: rgb(241, 199, 187);
     padding: 20px;
     margin: auto;
@@ -89,6 +100,7 @@ label {
 
 input {
     width: 100%;
+    min-width: 50px;
 }
 
 button {
@@ -106,7 +118,7 @@ button {
 footer {
     bottom: 0px;
     left: 0px;
-    width: 100%;
+    width: auto;
     background-color: rgba(36, 77, 36, 0.92);
 }
 
