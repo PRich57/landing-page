@@ -1,54 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="https://github.com/PRich57" target="_blank">GitHub</a></li>
-                <li>Portfolio</li>
-                <li><a href="#contact-me">Contact</a></li>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://github.com/PRich57" target="_blank">GitHub</a>
+          </li>
+          <li>Portfolio</li>
+          <li><a href="#contact-me">Contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
-        <h1>My New Website</h1>
-        <img src="https://images.unsplash.com/photo-1692085450034-3e7b05de83ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" alt="Picture of mountain lake">
-        <figcaption>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita minima laudantium, deleniti at iste quia.</figcaption>
-        
-        <section class="contact">
-            <h2 id="contact-me">Contact Me</h2>
-            <form>
-                <ul>
-                    <li class="form-inline">
-                        <label for="name">Name:</label>
-                        <input type="name" id="name" name="name" autocomplete="on">
-                    </li>
-                    <li class="form-inline">
-                        <label for="email">Email: </label>
-                        <input type="email" id="email" name="email" autocomplete="on">
-                    </li>
-                    <div id="button">
-                        <button type="submit">SEND</button>
-                    </div>
-                </ul>
-            </form>
-        </section>
+      <h1>My New Website</h1>
+      <img
+        src="https://images.unsplash.com/photo-1692085450034-3e7b05de83ed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3fHx8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60"
+        alt="Picture of mountain lake"
+      />
+      <figcaption>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita
+        minima laudantium, deleniti at iste quia.
+      </figcaption>
+
+      <!-- Contact section contains input fields for user name and email -->
+      <section class="contact">
+        <h2 id="contact-me">Contact Me</h2>
+        <!-- Fix border so it doesn't stretch across entire screen -->
+        <form>
+          <div class="name">
+            <label for="name">Name:</label>
+            <input type="name" id="name" name="name" autocomplete="off" />
+          </div>
+          <div class="email">
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" autocomplete="off" />
+          </div>
+          <div class="button">
+            <button type="submit">SEND</button>
+          </div>
+        </form>
+      </section>
     </main>
     <footer>
-        <p>&copy; 2023 My New Website Productions</p>
+      <p>&copy; 2023 My New Website Productions</p>
     </footer>
-
-</body>
+  </body>
 </html>

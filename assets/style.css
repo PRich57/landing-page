@@ -1,127 +1,124 @@
 * {
-    padding: 0;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
-    background-color:rgb(228, 230, 231);
-    color: rgb(88, 26, 26);
+  background-color: rgb(228, 230, 231);
+  color: rgb(88, 26, 26);
 }
 
 header {
-    border-bottom: 10px solid  rgb(241, 199, 187);
-    position: fixed;
-    width: 100%;
-    top: 0px;
-    left: 0px;
+  border-bottom: 10px solid rgb(241, 199, 187);
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  left: 0px;
 }
 
-header, footer {
-    background-color: rgba(36, 77, 36, 0.92);
-    padding: 20px;
-    font-size: 20px;
-    color: white;
+header,
+footer {
+  background-color: rgba(36, 77, 36, 0.92);
+  padding: 20px;
+  font-size: 20px;
+  color: white;
 }
 
 ul {
-    text-align: right;
+  text-align: right;
 }
 
 li {
-    display: inline;
-    margin-right: 50px;
-    right: 10px;
+  display: inline;
+  margin-right: 50px;
+  right: 10px;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 a:visited {
-    color: white;
+  color: white;
 }
 
 h1 {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 img {
-    border: 20px double rgb(88, 26, 26);
-    padding: 10px;
-    margin: 20px;
-    background-color:  rgb(241, 199, 187);
+  border: 20px double rgb(88, 26, 26);
+  padding: 10px;
+  margin: 20px;
+  background-color: rgb(241, 199, 187);
 }
 
 main {
-    margin-top: 90px;
-    text-align: center;
+  margin-top: 90px;
+  text-align: center;
 }
 
 figcaption {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 section {
-    background-color: rgb(241, 199, 187);
-    padding: 50px;
-    width: auto;
-    text-align: center;
+  background-color: rgb(241, 199, 187);
+  padding: 3rem;
+  width: auto;
+  text-align: center;
 }
 
 .contact {
-    position: relative;
-    max-height: 200px;
-    text-align: center;
-    border-top: 5px solid rgb(234, 168, 133);
+  display: flex;
+  flex-direction: column;
+  max-height: 10rem;
+  text-align: center;
+  border-top: 5px solid rgb(234, 168, 133);
 }
 
+/* fix this border */
 form {
-    border: 5px solid rgb(234, 168, 133);
-    border-radius: 15px;
-    width: auto;
-    max-width: 500px;
-    background-color: rgb(241, 199, 187);
-    padding: 20px;
-    margin: auto;
-    margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(241, 199, 187);
+  border: 5px solid rgb(234, 168, 133);
+  border-radius: 15px;
+  justify-content: center;
 }
 
-.form-inline {
-    display: flex;
-    flex-flow: row;
-    align-items: center;
+#contact-me {
+  margin: 1rem;
+}
+
+.name {
+  display: inline-flex;
+  align-self: center;
+  margin: 10px 0;
 }
 
 label {
-    margin: 5px 10px 5px 0;
-    width: 100px;
-}
-
-input {
-    width: 100%;
-    min-width: 50px;
+  margin: 0 10px;
 }
 
 button {
-    background-color: rgb(88, 26, 26);
-    color: white;
-    width: 100px;
-    height: 30px;
-}
-
-#button {
-    width: 90px;
-    margin: 0 auto;
+  background-color: rgb(88, 26, 26);
+  color: white;
+  align-self: center;
+  width: 100px;
+  height: 30px;
+  margin: 10px;
 }
 
 footer {
-    bottom: 0px;
-    left: 0px;
-    width: auto;
-    background-color: rgba(36, 77, 36, 0.92);
+  bottom: 0px;
+  left: 0px;
+  width: auto;
+  background-color: rgba(36, 77, 36, 0.92);
 }
 
 p {
-    text-align: center;
+  text-align: center;
 }
